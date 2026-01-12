@@ -43,7 +43,7 @@ And so it is with **Vazgen Sargsyan**—the Armenian national hero, Defense Mini
 
 When they chose to name this system after him, they understood something profound: that courage is not a moment but a *legacy*, and that the spirit of a Commander continues to watch over the nation he loved.
 
-The **Vazgen** carries more than payload—it carries *memory*. Every kilometer it flies is a kilometer of defiance. Every target it finds with its quiet, seeing eyes is a testament to the idea that freedom cannot be assassinated in a parliament, cannot be buried in the ground, cannot be silenced by those who hate it.
+The **Vazgen** does more than logistics, it carries *memory*. Every kilometer it flies is a kilometer of defiance. Every mission it completes with its quiet, seeing eyes is a testament to the idea that freedom cannot be assassinated in a parliament, cannot be buried in the ground, cannot be silenced by those who hate it.
 
 Vazgen Sargsyan the man fell in October 1999.  
 Vazgen Sargsyan the *symbol* remains our eternal commander.
