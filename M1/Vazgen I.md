@@ -85,8 +85,8 @@ Vazgen Sargsyan was not merely a military commander — he was the architect of 
 |------------|-----------------|-------------------|
 | GPS-Denied Navigation | ✅ AI Visual SLAM/VIO | ❌ GPS-dependent |
 | Terminal Accuracy | <3m CEP | 10-30m typical |
-| Acoustic Signature | **Variable** (Silent Electric Terminal) | Loud (Always) |
-| Thermal Signature | **Reduced** (Electric Terminal) | Detectable |
+| Acoustic Signature | **Silent** (Electric Always) | Loud (Always) |
+| Thermal Signature | **Minimal** (No Exhaust) | Detectable |
 | AI Target Recognition | ✅ CNN-based | ❌ Preset coordinates |
 | Unit Cost | $3,500-11,000 | $20,000-50,000 |
 
@@ -102,7 +102,7 @@ Vazgen Sargsyan was not merely a military commander — he was the architect of 
 
 **DENSE** — Maximum capability per unit mass and cost. No wasted weight. No unnecessary components. Every gram serves the mission.
 
-**POWERFUL** — **Hybrid Gas-Electric Propulsion**. The reliability and range of gasoline engines during cruise, combined with the instant torque and silence of electric drive for terminal approach.
+**POWERFUL** — **Advanced Electric Propulsion**. Whether through High-Density Li-Ion or Hydrogen Fuel Cells, the platform delivers 100% electric, vibration-free, silent performance for the entire mission duration.
 
 ### 2.2 The Vazgen Standard
 
@@ -113,9 +113,9 @@ Every system bearing the Vazgen Sargsyan name must meet these criteria:
 | **Mission Success Rate** | >95% in permissive environment |
 | **GPS-Denied Performance** | Full autonomous capability |
 | **Terminal CEP** | <5 meters in all conditions |
-| **Silent Terminal Range** | >50 km (Electric Mode) |
-| **System MTBF** | >500 flight hours |
-| **Production Cost** | <$20,000 per unit |
+| **Acoustic Signature** | <40dB @ 100m (Silent) |
+| **System MTBF** | >1000 flight hours |
+| **Production Cost** | <$30,000 per unit |
 
 ---
 
@@ -128,17 +128,17 @@ The **VS-I** is optimized for **mass deployment** and **large-scale surveys**. D
 | Parameter | Specification |
 |-----------|---------------|
 | **Designation** | Vazgen Sargsyan I (VS-I) |
-| **Role** | Tactical Autonomous Loitering Munition |
-| **Range** | 800 km (Hybrid Cruise) |
-| **Endurance** | 6-8 hours |
-| **Payload Capacity** | 5 kg |
-| **Cruise Speed** | 120-140 km/h |
-| **Maximum Speed** | 180 km/h (terminal dive) |
+| **Role** | Long-Endurance Electric Glider |
+| **Range** | 820 km (Electric Glider Mode) |
+| **Endurance** | 10-12 hours |
+| **Payload Capacity** | 1.5 kg (Sensors Only) |
+| **Cruise Speed** | 65-75 km/h (High Efficiency) |
+| **Maximum Speed** | 140 km/h (terminal dive) |
 | **Wingspan** | 2.1 m |
 | **Length** | 1.4 m |
-| **MTOW** | 14 kg |
+| **MTOW** | 12 kg |
 | **Launch Method** | Catapult / Rail |
-| **Unit Cost** | $4,200-4,800 (at scale) |
+| **Unit Cost** | $4,800-5,200 (at scale) |
 
 ### 3.2 Complete Component Breakdown
 
@@ -155,18 +155,17 @@ The **VS-I** is optimized for **mass deployment** and **large-scale surveys**. D
 | **Hatch Covers** | EPO foam | Magnetic closure | 2 | $10 |
 | **Subtotal** | | | | **$398** |
 
-#### 3.2.2 Propulsion System (Series Hybrid)
+#### 3.2.2 Propulsion System (High-Efficiency Electric)
 
 | Component | Model | Specifications | Qty | Price |
 |-----------|-------|----------------|-----|-------|
-| **Generator** | R2000 Hybrid | 2000W output, 2-stroke, 4.5kg | 1 | $1,200 |
-| **Motor** | T-Motor U8 Lite KV150 | 12 kg thrust, 6-12S, 240g, η>88% | 1 | $180 |
+| **Motor** | T-Motor U8 Lite KV150 | 12 kg thrust, Optimized for Efficiency | 1 | $180 |
 | **ESC** | T-Motor FLAME 60A | 6-12S, FOC, telemetry | 1 | $80 |
-| **Propeller** | APC 22×10E | 22" composite, pusher | 2 | $50 |
-| **Fuel Tank** | Kevlar Composite | 3.5 Liters (Gas/Oil mix) | 1 | $45 |
-| **Fuel Line** | Tygon F-4040-A | Gas/Oil resistant | 1m | $10 |
+| **Propeller** | APC 22×12E | High-Pitch Low-RPM Cruise | 2 | $50 |
+| **Prop Adapter** | Aluminum collet | Universal fit | 1 | $12 |
 | **Motor Mount** | CNC aluminum | Vibration damped | 1 | $35 |
-| **Subtotal** | | | | **$1,600** |
+| **Fairing** | Aerodynamic Cone | Drag reduction | 1 | $15 |
+| **Subtotal** | | | | **$372** |
 
 #### 3.2.3 Avionics & Computing
 
@@ -214,13 +213,14 @@ The **VS-I** is optimized for **mass deployment** and **large-scale surveys**. D
 
 | Component | Model | Specifications | Qty | Price |
 |-----------|-------|----------------|-----|-------|
-| **Buffer Battery** | Tattu 6S 8000mAh 25C | 22.2V, Hybrid Buffer, 850g | 1 | $140 |
-| **Starter Module** | Integrated | Integrated into Generator | 1 | Incl. |
+| **Primary Battery** | Custom Li-Ion 6S6P | 22.2V, 30Ah (21700 Cells), 1.5kg | 4 | $1,200 |
+| **Total Capacity** | 2664 Wh | Energy Density >260 Wh/kg | - | - |
+| **Wiring Harness** | Low-Resistance | Parallel connection | 1 | $40 |
 | **Power Distribution** | Matek FCHUB-6S | Integrated PDB, current sense | 1 | $35 |
 | **BEC 5V** | Pololu D24V50F5 | 5V/5A, 50V input max | 1 | $15 |
 | **BEC 12V** | Pololu D24V22F12 | 12V/2A, for Jetson | 1 | $12 |
 | **Voltage Monitor** | ISDT BattGo BG-8S | Cell checker, alarm | 1 | $20 |
-| **Subtotal** | | | | **$222** |
+| **Subtotal** | | | | **$1,322** |
 
 #### 3.2.8 Payload Bay
 
@@ -250,17 +250,17 @@ The **VS-I** is optimized for **mass deployment** and **large-scale surveys**. D
 | Category | Subtotal |
 |----------|----------|
 | Airframe | $398 |
-| Propulsion (Hybrid) | $1,600 |
+| Propulsion (Electric) | $372 |
 | Avionics | $534 |
 | Navigation | $140 |
 | Sensors | $410 |
 | Communications | $145 |
-| Power | $222 |
+| Power | $1,322 |
 | Payload Bay | $80 |
 | Miscellaneous | $152 |
-| **Assembly Labor** | $650 |
-| **TOTAL (Prototype)** | **$4,331** |
-| **At Scale (500+ units)** | **$3,500-3,900** |
+| **Assembly Labor** | $500 |
+| **TOTAL (Prototype)** | **$4,053** |
+| **At Scale (500+ units)** | **$4,800-5,200** |
 
 ---
 
@@ -273,17 +273,17 @@ The **VS-II** is engineered for **long-range research missions**. With 1,800km r
 | Parameter | Specification |
 |-----------|---------------|
 | **Designation** | Vazgen Sargsyan II (VS-II) |
-| **Role** | Strategic Autonomous Research System |
-| **Range** | 1,800 km (Hybrid Cruise) |
-| **Endurance** | 12-15 hours |
-| **Utility Capacity** | 8 kg |
-| **Cruise Speed** | 140-160 km/h |
-| **Maximum Speed** | 200 km/h (terminal descent) |
+| **Role** | Strategic Hydrogen-Electric Research System |
+| **Range** | 2,200 km (Hydrogen Electric) |
+| **Endurance** | 18-20 hours |
+| **Utility Capacity** | 6 kg |
+| **Cruise Speed** | 120-140 km/h |
+| **Maximum Speed** | 180 km/h |
 | **Wingspan** | 3.2 m |
 | **Length** | 2.2 m |
-| **MTOW** | 28 kg |
+| **MTOW** | 26 kg |
 | **Launch Method** | Catapult / Truck-mounted rail |
-| **Unit Cost** | $14,500-16,000 (at scale) |
+| **Unit Cost** | $25,000-28,000 (at scale) |
 
 ### 4.2 Complete Component Breakdown
 
@@ -300,19 +300,18 @@ The **VS-II** is engineered for **long-range research missions**. With 1,800km r
 | **Ball Links** | Stainless steel | Precision fit | 8 | $20 |
 | **Subtotal** | | | | **$4,140** |
 
-#### 4.2.2 Propulsion System (Series Hybrid)
+#### 4.2.2 Propulsion System (Hydrogen Electric)
 
 | Component | Model | Specifications | Qty | Price |
 |-----------|-------|----------------|-----|-------|
-| **Generator** | H500 Hybrid EFI | 5000W output, EFI, 9kg | 1 | $4,500 |
-| **Motor** | T-Motor U13II KV130 | 24 kg thrust, 12S, 990g, η>90% | 1 | $500 |
-| **ESC** | APD 120F3[X] HV | 120A cont, 12S, FOC, 32-bit | 1 | $220 |
+| **Fuel Cell Stack** | Intelligent Energy 2.4kW | PEM Fuel Cell, Air Cooled | 1 | $12,000 |
+| **Hydrogen Tank** | Carbon Composite 9L | 300 bar, Type IV | 1 | $2,500 |
+| **Pressure Regulator** | Two-stage | 300 bar -> Low Pressure | 1 | $800 |
+| **Motor** | T-Motor U13II KV130 | 24 kg thrust, 12S, 990g | 1 | $500 |
+| **ESC** | APD 120F3[X] HV | 120A cont, 12S, FOC | 1 | $220 |
 | **Propeller** | T-Motor NS26×8.5 CF | 26" carbon fiber, pusher | 2 | $300 |
-| **Fuel Tank** | Kevlar Composite | 12 Liters (Gas) | 1 | $150 |
-| **Fuel Pump/Line** | EFI High Pressure | Walbro spec | 1 | $80 |
 | **Motor Mount** | CNC aluminum | Precision machined | 1 | $50 |
-| **Exhaust** | Custom Tuned Pipe | Noise reduction & heat shielding | 1 | $150 |
-| **Subtotal** | | | | **$5,950** |
+| **Subtotal** | | | | **$16,370** |
 
 #### 4.2.3 Avionics & Computing
 
@@ -364,15 +363,14 @@ The **VS-II** is engineered for **long-range research missions**. With 1,800km r
 
 | Component | Model | Specifications | Qty | Price |
 |-----------|-------|----------------|-----|-------|
-| **Buffer Battery** | Tattu 12S 5000mAh 60C | 44.4V, Hybrid Buffer, 1200g | 1 | $180 |
-| **GCU** | Generator Control Unit | Hybrid management | 1 | Incl. |
+| **Buffer Battery** | Tattu 12S 2000mAh 100C | High-Discharge Peak Buffer | 1 | $120 |
+| **FCM** | Fuel Cell Management | Integrated Control | 1 | Incl. |
 | **Power Module** | Holybro PM02D HV | 60V, current sensing | 1 | $60 |
 | **PDB** | Matek FCHUB-12S | 12S rated, 200A | 1 | $45 |
 | **BEC 12V** | Pololu D36V50F12 | 12V/5A, 50V input | 1 | $45 |
 | **BEC 5V Primary** | Holybro PM08-BEC | 5V/3A, low noise | 1 | $25 |
 | **BEC 5V Backup** | Pololu D24V50F5 | Redundant power | 1 | $15 |
-| **Starter Battery** | 3S 850mAh | Dedicated ECU/Starter power | 1 | $20 |
-| **Subtotal** | | | | **$390** |
+| **Subtotal** | | | | **$310** |
 
 #### 4.2.8 Payload Bay
 
@@ -409,17 +407,17 @@ The **VS-II** is engineered for **long-range research missions**. With 1,800km r
 | Category | Subtotal |
 |----------|----------|
 | Airframe | $4,140 |
-| Propulsion (Hybrid) | $5,950 |
+| Propulsion (H2 Electric) | $16,370 |
 | Avionics | $1,454 |
 | Navigation | $305 |
 | Sensors | $3,600 |
 | Communications | $1,490 |
-| Power | $390 |
+| Power | $310 |
 | Payload Bay | $205 |
 | Miscellaneous | $358 |
-| **Assembly Labor** | $2,000 |
-| **TOTAL (Prototype)** | **$19,892** |
-| **At Scale (100+ units)** | **$14,500-16,000** |
+| **Assembly Labor** | $2,500 |
+| **TOTAL (Prototype)** | **$30,732** |
+| **At Scale (100+ units)** | **$25,000-28,000** |
 
 ---
 
