@@ -1,6 +1,6 @@
-# M4: Mach 0.4 Speed Regime
+# M4: Mach 4 Speed Regime
 
-This folder documents the development and testing of the Vazgen Sargsyan platform at speeds up to Mach 0.4 (~490 km/h).
+This folder documents the development and testing of the Vazgen Sargsyan platform at hypersonic speeds of Mach 4 (~4,900 km/h).
 
-- **Design Speed:** Mach 0.4
-- **Focus:** High-subsonic aerodynamic stability and sensor performance.
+- **Design Speed:** Mach 4 (Hypersonic)
+- **Focus:** Thermal protection systems and hypersonic aerodynamic stability.

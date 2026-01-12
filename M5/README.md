@@ -1,6 +1,6 @@
-# M5: Mach 0.5 Speed Regime
+# M5: Mach 5 Speed Regime
 
-This folder documents the development and testing of the Vazgen Sargsyan platform at speeds up to Mach 0.5 (~610 km/h).
+This folder documents the development and testing of the Vazgen Sargsyan platform at hypersonic speeds of Mach 5 (~6,125 km/h).
 
-- **Design Speed:** Mach 0.5
-- **Focus:** Mid-subsonic efficiency and airframe structural integrity.
+- **Design Speed:** Mach 5 (Hypersonic)
+- **Focus:** Scramjet integration and high-temperature material resilience.

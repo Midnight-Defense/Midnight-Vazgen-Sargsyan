@@ -1,6 +1,6 @@
-# M9: Mach 0.9 Speed Regime
+# M9: Mach 9 Speed Regime
 
-This folder documents the development and testing of the Vazgen Sargsyan platform at the threshold of the sonic barrier, up to Mach 0.9 (~1,100 km/h).
+This folder documents the development and testing of the Vazgen Sargsyan platform at the edge of re-entry speeds, Mach 9 (~11,000 km/h).
 
-- **Design Speed:** Mach 0.9
-- **Focus:** Sonic boom mitigation and extreme high-speed structural resilience.
+- **Design Speed:** Mach 9 (Hypersonic)
+- **Focus:** Ionized flow modeling and global reach capability.
