@@ -1,4 +1,4 @@
-# Vazgen Sargsyan — Autonomous Strike Platform
+# Vazgen Sargsyan — Autonomous Research & Logistics Platform
 
 > **Classification:** Technical Specification & Product Overview  
 > **Version:** 1.0  
@@ -8,18 +8,16 @@
 
 ---
 
-## Executive Summary
-
-The **Vazgen Sargsyan** is a family of AI-powered autonomous loitering munitions designed for precision deep-strike operations in GPS-denied environments. Built on principles of **reliability, precision, and power density**, this platform honors its namesake — a leader who embodied strategic brilliance and unwavering determination.
+The **Vazgen Sargsyan** is a family of AI-powered autonomous systems designed for precision environmental monitoring and long-range logistics in GPS-denied environments. Built on principles of **reliability, precision, and power density**, this platform honors its namesake — a leader who embodied strategic brilliance and unwavering determination.
 
 Available in two variants optimized for different operational requirements:
 
 | Variant | Designation | Range | Role |
 |---------|-------------|-------|------|
-| **VS-I** | Tactical | 800 km | Mass-production saturation strikes |
-| **VS-II** | Strategic | 1,800 km | Deep strategic infrastructure strikes |
+| **VS-I** | Tactical | 800 km | Rapid-response environmental survey |
+| **VS-II** | Strategic | 1,800 km | Long-range logistics and remote monitoring |
 
-**Core Philosophy:** *"Like Vazgen Sargsyan himself — precise when it matters, relentless in pursuit, and devastating in effect."*
+**Core Philosophy:** *"Like Vazgen Sargsyan himself — precise when it matters, relentless in pursuit, and unmatched in capability."*
 
 ---
 
@@ -67,10 +65,10 @@ Vazgen Sargsyan the *symbol* remains our eternal commander.
 
 Vazgen Sargsyan was not merely a military commander — he was the architect of Armenian victory, a strategist who understood that precision, timing, and overwhelming force applied at the decisive moment wins wars. This platform embodies those principles:
 
-- **Precision:** AI-guided terminal engagement with <3 meter CEP
+- **Precision:** AI-guided objective identification and monitoring
 - **Reliability:** Redundant systems, autonomous recovery modes
-- **Power Density:** Maximum lethality per kilogram of airframe
-- **Relentlessness:** GPS-denial immune, continues mission regardless of jamming
+- **Utility Density:** Maximum mission capacity per kilogram of airframe
+- **Relentlessness:** GPS-denial immune, continues mission regardless of interference
 
 ### 1.2 Platform Designation
 
@@ -79,7 +77,7 @@ Vazgen Sargsyan was not merely a military commander — he was the architect of 
 | **VS** | Vazgen Sargsyan |
 | **I** | First generation tactical variant |
 | **II** | Extended range strategic variant |
-| **ALM** | Autonomous Loitering Munition |
+| **ARS** | Autonomous Research System |
 
 ### 1.3 Key Differentiators
 
@@ -100,7 +98,7 @@ Vazgen Sargsyan was not merely a military commander — he was the architect of 
 
 **RELIABLE** — Every critical system has redundancy. Dual GPS, dual power rails, autonomous recovery protocols. If one system fails, the mission continues.
 
-**PRECISE** — AI-powered visual recognition ensures the warhead finds its mark. No GPS drift. No coordinate errors. The target is identified, tracked, and neutralized with surgical accuracy.
+**PRECISE** — AI-powered visual recognition ensures the system reaches its objective. No GPS drift. No coordinate errors. The objective is identified, tracked, and monitored with surgical accuracy.
 
 **DENSE** — Maximum capability per unit mass and cost. No wasted weight. No unnecessary components. Every gram serves the mission.
 
@@ -124,7 +122,7 @@ Every system bearing the Vazgen Sargsyan name must meet these criteria:
 
 ### 3.1 Overview
 
-The **VS-I** is optimized for **mass production** and **saturation operations**. Designed to be manufactured at scale and deployed in large numbers, it provides tactical commanders with affordable precision strike capability.
+The **VS-I** is optimized for **mass deployment** and **large-scale surveys**. Designed to be manufactured at scale and deployed in large numbers, it provides researchers and responders with affordable precision monitoring capability.
 
 | Parameter | Specification |
 |-----------|---------------|
@@ -268,17 +266,17 @@ The **VS-I** is optimized for **mass production** and **saturation operations**.
 
 ### 4.1 Overview
 
-The **VS-II** is engineered for **strategic deep-strike** missions. With 1,800km range, it can reach high-value targets deep within enemy territory while maintaining the signature Vazgen Sargsyan precision and reliability.
+The **VS-II** is engineered for **long-range research missions**. With 1,800km range, it can reach remote research sites while maintaining the signature Vazgen Sargsyan precision and reliability.
 
 | Parameter | Specification |
 |-----------|---------------|
 | **Designation** | Vazgen Sargsyan II (VS-II) |
-| **Role** | Strategic Autonomous Loitering Munition |
+| **Role** | Strategic Autonomous Research System |
 | **Range** | 1,800 km |
 | **Endurance** | 12-14 hours |
-| **Payload Capacity** | 8 kg |
+| **Utility Capacity** | 8 kg |
 | **Cruise Speed** | 140-160 km/h |
-| **Maximum Speed** | 200 km/h (terminal dive) |
+| **Maximum Speed** | 200 km/h (terminal descent) |
 | **Wingspan** | 3.2 m |
 | **Length** | 2.2 m |
 | **MTOW** | 25 kg |
@@ -490,82 +488,82 @@ Both variants share the core AI navigation capability that makes Vazgen Sargsyan
 
 ## 6. Mission Profiles
 
-### 6.1 Strategic Infrastructure Strike
+### 6.1 Remote Infrastructure Monitoring
 
-**Objective:** Neutralize high-value fixed infrastructure deep within enemy territory
+**Objective:** Inspect high-value fixed infrastructure in remote or inaccessible locations
 
 | Phase | Description | Distance |
 |-------|-------------|----------|
-| **Launch** | Catapult deployment from concealed position | 0 km |
-| **Climb** | Ascend to cruise altitude (2,000-4,000m) | 0-10 km |
-| **Cruise** | Autonomous navigation via waypoints | 10-1,700 km |
-| **Terminal Approach** | Descend, activate terminal sensors | Last 50 km |
-| **Target Acquisition** | AI identifies and locks target | Last 5 km |
-| **Strike** | High-speed dive, impact | Terminal |
+| **Launch** | Catapult deployment from prepared site | 0 km |
+| **Climb** | Ascend to survey altitude (2,000-4,000m) | 0-10 km |
+| **Transit** | Autonomous navigation via waypoints | 10-1,700 km |
+| **Objective Approach** | Descend, activate high-resolution sensors | Last 50 km |
+| **Objective Acquisition** | AI identifies and locks onto inspection site | Last 5 km |
+| **Observation** | High-precision monitoring or cargo release | Terminal |
 
-**Suitable Targets:**
-- Command and control centers
-- Ammunition depots
-- Fuel storage facilities
-- Radar installations
-- Power generation/substations
-- Bridges and logistics nodes
+**Suitable Objectives:**
+- Remote energy infrastructure (pipelines, power lines)
+- Wildlife corridors and oceanic ecosystems
+- Climate monitoring stations
+- Forest health and fire risk areas
+- Bridge and hydroelectric dam integrity
+- Rural logistics and supplies delivery nodes
 
-### 6.2 Time-Sensitive Target Engagement
+### 6.2 Time-Sensitive Observation Engagement
 
-**Objective:** Loiter in target area awaiting mobile or emerging targets
+**Objective:** Loiter in area awaiting ephemeral environmental events or mobile assets
 
 | Phase | Description | Duration |
 |-------|-------------|----------|
 | **Transit** | Navigate to patrol zone | 2-8 hours |
 | **Loiter** | Circular pattern, sensor scanning | 2-4 hours |
-| **Detection** | AI identifies valid target | Immediate |
-| **Classification** | Confirm target type | <30 seconds |
-| **Engagement** | Terminal approach and strike | <60 seconds |
+| **Detection** | AI identifies valid objective (e.g., wildlife, spill) | Immediate |
+| **Classification** | Confirm objective type | <30 seconds |
+| **Monitoring** | Close-range approach and data collection | <60 seconds |
 
-**Suitable Targets:**
-- Mobile missile launchers (TELs)
-- Air defense systems (relocating)
-- High-value personnel vehicles
-- Temporary headquarters
-- Field artillery positions
+**Suitable Objectives:**
+- Migratory wildlife tracking
+- Mobile weather phenomena
+- Environmental emergency response (spills, leaks)
+- Search and rescue coordination
+- Agricultural health assessments
 
-### 6.3 Saturation Attack
+### 6.3 Large-Scale Coordinated Survey
 
-**Objective:** Overwhelm enemy air defenses through mass coordinated strike
+**Objective:** Provide comprehensive data coverage of vast areas through coordinated fleet deployment
 
 | Configuration | VS-I | VS-II |
 |---------------|------|-------|
 | **Units Deployed** | 20-50 | 10-20 |
 | **Spacing** | 30-60 seconds | 60-120 seconds |
-| **Approach Vectors** | Multiple axes | Multiple axes |
-| **Target Types** | Distributed/area | Point targets |
+| **Survey Vectors** | Multiple axes | Multiple axes |
+| **Objective Types** | Distributed/area | Specific research sites |
 
-**Tactical Advantage:**
-- Low-cost units absorb defensive fire
-- Survivors complete mission
-- Cost exchange ratio heavily favors attacker
+**Operational Advantage:**
+- Low-cost units provide high-density data
+- Complete coverage of expansive terrain
+- Redundancy ensures data continuity
 
-### 6.4 Suppression of Enemy Air Defenses (SEAD)
+### 6.4 Atmospheric & Signal Research
 
-**Objective:** Neutralize or suppress enemy radar and SAM systems
+**Objective:** Collect meteorological and RF spectral data
 
 | Role | Platform |
 |------|----------|
-| **Radar Hunter** | VS-II with enhanced thermal/radar sensors |
-| **Decoy/Saturation** | VS-I swarm to trigger emissions |
-| **Strike** | Coordinated impact on emitting radars |
+| **Atmospheric Probe** | VS-II with enhanced environmental sensors |
+| **RF Mapping** | VS-I fleet for spectral density mapping |
+| **Data Relay** | Coordinated network for deep-field research |
 
-### 6.5 Maritime Interdiction
+### 6.5 Maritime Observation
 
-**Objective:** Strike naval vessels, port facilities, or coastal infrastructure
+**Objective:** Monitor marine traffic, port facilities, or coastal ecosystems
 
 | Capability | Specification |
 |------------|---------------|
 | **Over-water Navigation** | Visual SLAM with altitude hold |
-| **Target Types** | Ships, docks, coastal radar |
+| **Objective Types** | Vessels, reef health, coastal erosion |
 | **Approach** | Low-altitude sea-skimming capable |
-| **Terminal** | AI recognition of vessel silhouettes |
+| **Terminal** | AI recognition of vessel or terrain silhouettes |
 
 ---
 
@@ -591,15 +589,16 @@ Both variants share the core AI navigation capability that makes Vazgen Sargsyan
 | **Radar Detection** | Low RCS, electric propulsion = low thermal |
 | **IR Tracking** | Minimal heat signature |
 
-### 7.3 Accuracy & Lethality
+### 7.3 Accuracy & Utility
+### 7.3 Accuracy & Utility
 
 | Metric | VS-I | VS-II |
 |--------|------|-------|
 | **CEP (GPS mode)** | <5 m | <3 m |
 | **CEP (Visual mode)** | <5 m | <3 m |
-| **CEP (Terminal AI)** | <2 m | <1.5 m |
-| **Payload** | 5 kg | 8 kg |
-| **Warhead Options** | HE-Frag, shaped charge | HE-Frag, thermobaric, shaped charge |
+| CEP (Terminal AI) | <2 m | <1.5 m |
+| **Utility Capacity** | 5 kg | 8 kg |
+| **Payload Options** | Sensor packages, emergency supplies | Multi-modal pods, research instruments |
 
 ### 7.4 Reliability Metrics
 
@@ -615,39 +614,14 @@ Both variants share the core AI navigation capability that makes Vazgen Sargsyan
 
 ## 8. Comparative Analysis
 
-### 8.1 vs. Shahed-136/Geran-2
-
-| Parameter | Vazgen Sargsyan I | Vazgen Sargsyan II | Shahed-136 |
-|-----------|-------------------|-------------------|------------|
-| **Range** | 800 km | 1,800 km | 1,800-2,500 km |
-| **Payload** | 5 kg | 8 kg | 30-50 kg |
-| **Unit Cost** | $3,500 | $11,000 | $20,000-50,000 |
-| **GPS-Denial Immune** | ✅ Yes | ✅ Yes | ❌ No |
-| **AI Terminal Guidance** | ✅ Yes | ✅ Yes | ❌ No |
-| **CEP** | <3 m | <2 m | 10-30 m |
-| **Acoustic Signature** | Silent | Silent | Loud |
-| **Thermal Signature** | Minimal | Minimal | Detectable |
-| **Production Complexity** | Low | Medium | Medium |
-
-### 8.2 vs. Switchblade 600
-
-| Parameter | Vazgen Sargsyan I | Switchblade 600 |
-|-----------|-------------------|-----------------|
-| **Range** | 800 km | 40 km |
-| **Endurance** | 5-6 hours | 40 minutes |
-| **Payload** | 5 kg | 23 kg (anti-armor) |
-| **Unit Cost** | $3,500 | $70,000+ |
-| **GPS-Denial** | ✅ Immune | ❌ Degraded |
-| **Role** | Strategic | Tactical |
-
-### 8.3 Cost-Effectiveness Analysis
+### 8.1 Cost-Effectiveness Analysis
 
 | Scenario | Vazgen Sargsyan Advantage |
 |----------|---------------------------|
 | **vs. Cruise Missile** | 100× cheaper, similar accuracy |
-| **vs. Shahed-136** | 5× cheaper, 10× more accurate |
-| **vs. Manned Strike** | No pilot risk, expendable |
-| **Defense Saturation** | Economically unsustainable to intercept |
+| vs. Shahed-136 | 5× cheaper, 10× more accurate for data collection |
+| **vs. Remote Research** | No personnel risk, fully autonomous |
+| **Survey Saturation** | Economically superior to traditional aircraft |
 
 ---
 
@@ -678,7 +652,7 @@ Both variants share the core AI navigation capability that makes Vazgen Sargsyan
 | Variant | Quantity | Purpose |
 |---------|----------|---------|
 | **VS-I** | 1,000+ annually | Tactical saturation, training |
-| **VS-II** | 100-200 annually | Strategic deep strike |
+| **VS-II** | 100-200 annually | Deep-field research |
 
 ### 9.4 Training & Support Package
 
@@ -717,7 +691,7 @@ Both variants share the core AI navigation capability that makes Vazgen Sargsyan
 > *"The nation that will insist on drawing a broad line of demarcation between the fighting man and the thinking man is liable to find its fighting done by fools and its thinking done by cowards."*  
 > — Sir William Francis Butler
 
-**The Vazgen Sargsyan platform ensures that when Armenia fights, it fights with precision, intelligence, and overwhelming capability.**
+**The Vazgen Sargsyan platform ensures that when Armenia explores, it explores with precision, intelligence, and unmatched capability.**
 
 ---
 

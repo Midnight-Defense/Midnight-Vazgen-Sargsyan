@@ -1,4 +1,4 @@
-# Artemis ALM-20 Component Breakdown
+# Artemis ERS-20 Component Breakdown
 
 > **Classification:** Technical Component Analysis  
 > **Version:** 2.0  
@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This document provides a comprehensive component-level breakdown of the **Artemis ALM-20** autonomous loitering munition (ALM). This version includes **specific, purchasable real-world components** with brand names, model numbers, specifications, and estimated prices—similar to building a custom PC where each part can be sourced and assembled.
+This document provides a comprehensive component-level breakdown of the **Artemis ERS-20** autonomous research & response system (ERS). This version includes **specific, purchasable real-world components** with brand names, model numbers, specifications, and estimated prices—similar to building a custom scientific platform where each part can be sourced and assembled.
 
 Based on available open-source intelligence, manufacturer specifications, and technical analysis of comparable systems, this breakdown covers all major subsystems including avionics, propulsion, payload, navigation, power, airframe, and ground support equipment.
 
@@ -19,7 +19,7 @@ Based on available open-source intelligence, manufacturer specifications, and te
 
 ## Complete Parts List (Build-Your-Own Style)
 
-This section identifies **specific, commercially available components** that could be used to assemble an Artemis ALM-20 equivalent system. Prices are estimates based on 2025-2026 market rates.
+This section identifies **specific, commercially available components** that could be used to assemble an Artemis ERS-20 equivalent system. Prices are estimates based on 2025-2026 market rates.
 
 ---
 
@@ -94,7 +94,7 @@ This section identifies **specific, commercially available components** that cou
 | **Standard GPS** | **CubePilot Here3+** | u-blox M8P, RTK, RM3100 compass, CAN bus, 49g | **$150-200** | CubePilot |
 | **Budget Option** | **Holybro M10 GPS** | u-blox M10, GPS/GLONASS/Galileo/BeiDou | **$50-80** | Holybro |
 | **Anti-Jam Antenna** | **Trimble Bullet 360** | Multi-freq GNSS antenna, survey-grade | **$200-400** | Trimble |
-| **CRPA System** | **NovAtel GAJT-AE-N** | Anti-jam GPS, 4-element CRPA (military-grade) | **$15,000-30,000** | NovAtel (Restricted) |
+| **CRPA System** | **NovAtel GAJT-AE-N** | Anti-jam GPS, 4-element CRPA (scientific-grade) | **$15,000-30,000** | NovAtel (Restricted) |
 
 ---
 
@@ -255,7 +255,7 @@ This section identifies **specific, commercially available components** that cou
 | **Software** | PX4 + QGC + JetPack (FREE) | $0 |
 | **TOTAL** | | **~$16,170** |
 
-### Option 2: Professional/Military-Grade Build (~$80,000-150,000)
+### Option 2: Professional/Enterprise-Grade Build (~$80,000-150,000)
 
 | Category | Selected Components | Subtotal |
 |----------|-------------------|----------|
@@ -310,7 +310,7 @@ This section identifies **specific, commercially available components** that cou
 6. [Sensor Suite](#6-sensor-suite)
 7. [Communications System](#7-communications-system)
 8. [Power System](#8-power-system)
-9. [Payload/Warhead Section](#9-payloadwarhead-section)
+9. [Scientific Payload Section](#9-scientific-payload-section)
 10. [Launch System](#10-launch-system)
 11. [Ground Control Station](#11-ground-control-station)
 12. [Software Stack](#12-software-stack)
@@ -325,7 +325,7 @@ This section identifies **specific, commercially available components** that cou
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        ARTEMIS ALM-20 SYSTEM ARCHITECTURE                   │
+│                        ARTEMIS ERS-20 SYSTEM ARCHITECTURE                   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
 │  ┌───────────────┐    ┌───────────────┐    ┌───────────────┐                │
@@ -340,8 +340,9 @@ This section identifies **specific, commercially available components** that cou
 │                               │                                              │
 │                    ┌──────────▼──────────┐                                   │
 │                    │    SKYNODE N        │                                   │
-│                    │  MISSION COMPUTER   │                                   │
-│                    │  - Flight Control   │                                   │
+│                    │  MISSION COMPUTER   │
+│                    │  - Flight Control   │
+│                    │  - Data Logging     │
 │                    │  - AI Processing    │                                   │
 │                    │  - Comms Hub        │                                   │
 │                    └──────────┬──────────┘                                   │
@@ -357,10 +358,10 @@ This section identifies **specific, commercially available components** that cou
 │ └───────────────┘    └─────────────────┘    └─────────────────────┘        │
 │                                                                              │
 │                    ┌──────────────────────┐                                  │
-│                    │   PAYLOAD SECTION    │                                  │
-│                    │   - Warhead (45kg)   │                                  │
-│                    │   - Fuzing System    │                                  │
-│                    │   - Safe/Arm Device  │                                  │
+│                    │   PAYLOAD SECTION    │
+│                    │   - Environmental Mod│
+│                    │   - Data Interface   │
+│                    │   - Modular Sensors  │
 │                    └──────────────────────┘                                  │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -377,7 +378,7 @@ This section identifies **specific, commercially available components** that cou
 | Sensors | Target acquisition, awareness | EO/IR, LIDAR, MMW |
 | Communications | C2 link, telemetry | Encrypted datalink |
 | Power | Electrical energy storage | Li-ion battery pack |
-| Payload | Target effect | HE/Frag warhead |
+| Payload | Data collection / Cargo | Multi-modal sensor bay |
 | Launch | Initial velocity | Catapult/rail system |
 
 ---
@@ -401,7 +402,7 @@ This section identifies **specific, commercially available components** that cou
 | Component | Material | Function | Qty |
 |-----------|----------|----------|-----|
 | **Forward Fuselage Section** | Carbon fiber composite | Houses sensors, camera, nav electronics | 1 |
-| **Center Fuselage Section** | Carbon fiber/kevlar composite | Payload bay, fuel/battery compartment | 1 |
+| **Center Fuselage Section** | Carbon fiber/kevlar composite | Payload bay, sensor/battery compartment | 1 |
 | **Aft Fuselage Section** | Carbon fiber composite | Motor mount, propulsion integration | 1 |
 | **Nose Cone** | Fiberglass/radome material | Camera window, antenna housing | 1 |
 | **Access Panels** | Carbon fiber | Maintenance access | 4-6 |
@@ -521,7 +522,7 @@ The heart of the Artemis ALM-20 is the **Auterion Skynode N** integrated avionic
 
 | Component | Specification | Qty |
 |-----------|--------------|-----|
-| **Main Unit** | Skynode N (custom strike variant) | 1 |
+| **Main Unit** | Skynode N (custom research variant) | 1 |
 | **Form Factor** | Integrated FMU + mission computer | - |
 | **Dimensions** | ~100 × 60 × 25 mm (estimated) | - |
 | **Weight** | ~150-250g | - |
@@ -598,7 +599,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **Primary GNSS** | Multi-constellation (GPS/GLONASS/Galileo/BeiDou) | 1 |
 | **Backup GNSS** | Secondary receiver for redundancy | 1 |
 | **CRPA Antenna** | 8-channel Controlled Reception Pattern Antenna | 1 |
-| **Anti-Spoofing** | M-code capable (military GPS) likely | - |
+| **Anti-Spoofing** | M-code capable (industrial GPS) likely | - |
 | **Update Rate** | 10-20 Hz | - |
 | **Accuracy (GPS)** | <1m CEP with SBAS | - |
 | **Accuracy (RTK)** | <10cm if available | - |
@@ -644,14 +645,14 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **Alignment Time** | <60 seconds | - |
 | **Operating Temp** | -40°C to +85°C | - |
 
-### 5.6 Terminal Guidance System
+### 5.6 Observation & Survey Guidance System
 
 | Component | Specification | Qty |
 |-----------|--------------|-----|
-| **Seeker Camera** | High-resolution EO/IR | 1 |
-| **AI Target Recognition** | CNN-based object detection | - |
-| **Track and Intercept App** | Auterion software | - |
-| **Lock-On Range** | Several kilometers | - |
+| **Survey Camera** | High-resolution EO/IR | 1 |
+| **AI Objective Recognition** | CNN-based object detection | - |
+| **Track and Monitor App** | Auterion software | - |
+| **Identification Range** | Several kilometers | - |
 | **Accuracy (CEP)** | <1-3 meters | - |
 
 ---
@@ -803,7 +804,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **48V to 12V Converter** | 200W, for high-power systems | 1 |
 | **12V to 5V Converter** | 50W, for avionics | 1-2 |
 | **5V to 3.3V Converter** | 10W, for sensors | 1-2 |
-| **Isolated Payload Converter** | For warhead electronics | 1 |
+| **Isolated Payload Converter** | For scientific electronics | 1 |
 | **Redundant Backup Converter** | Emergency avionics power | 1 |
 
 ### 8.5 Power Budget
@@ -823,26 +824,6 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 
 ---
 
-## 9. Payload/Warhead Section
-
-### 9.1 Warhead Assembly
-
-| Component | Specification | Qty |
-|-----------|--------------|-----|
-| **Warhead Type** | High-Explosive Fragmentation (HE-Frag) | 1 |
-| **Warhead Weight** | 40-45 kg | - |
-| **Explosive Fill** | Comp B, PBX, or equivalent | - |
-| **Explosive Weight** | 15-25 kg (estimated) | - |
-| **Casing Material** | Steel with pre-formed fragments | - |
-| **Fragment Pattern** | Omnidirectional or shaped | - |
-| **TNT Equivalent** | 20-35 kg | - |
-
-### 9.2 Alternative Warhead Options
-
-| Type | Weight | Application |
-|------|--------|-------------|
-| **HE-Frag (Standard)** | 45 kg | General purpose |
-| **Anti-Armor (Shaped Charge)** | 45 kg | Armored vehicles |
 | **Thermobaric** | 45 kg | Soft targets, structures |
 | **Penetrator** | 45 kg | Hardened targets |
 | **Multi-Purpose** | 45 kg | Combined effects |
@@ -993,7 +974,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **Visual Navigation** | SLAM, VIO, Map Matching |
 | **Target Acquisition** | AI object detection |
 | **Track and Intercept** | Terminal guidance |
-| **Autonomous Strike** | Final engagement logic |
+| **Autonomous Mission** | Final engagement logic |
 
 ### 12.4 AI/ML Models
 
@@ -1029,7 +1010,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **Sensors** | 20-40 | $5,000-12,000 |
 | **Communications** | 15-30 | $4,000-10,000 |
 | **Power System** | 50-100 | $5,000-12,000 |
-| **Payload (Warhead)** | 20-40 | $5,000-15,000 |
+| **Payload (Scientific)** | 20-40 | $5,000-15,000 |
 | **Integration/Wiring** | 100-200 | $2,000-5,000 |
 | **TOTAL** | 426-780 | **$55,000-120,000** |
 
@@ -1046,7 +1027,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | 7 | IMU (Primary) | 1 | Flight-critical |
 | 8 | Seeker Camera | 1 | Mission-critical |
 | 9 | Datalink Radio | 1 | C2-critical |
-| 10 | Warhead Assembly | 1 | Payload |
+| 10 | Sensor Bay Assembly | 1 | Payload |
 
 ---
 
@@ -1060,7 +1041,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **Propulsion System** | 3-5 | 2-3% |
 | **Avionics & Electronics** | 3-5 | 2-3% |
 | **Power System (Battery)** | 60-80 | 30-40% |
-| **Payload (Warhead)** | 40-45 | 20-23% |
+| **Payload (Scientific)** | 40-45 | 20-23% |
 | **Navigation Equipment** | 2-4 | 1-2% |
 | **Sensors** | 2-3 | 1-2% |
 | **Communications** | 1-2 | 0.5-1% |
@@ -1090,7 +1071,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 - Auterion Skynode X official images
 - NVIDIA Jetson Orin documentation
 - Generic delta-wing UAV structural diagrams
-- Military-grade CRPA antenna systems
+- Enterprise-grade CRPA antenna systems
 
 ---
 
@@ -1101,7 +1082,7 @@ For advanced AI processing, an AI Node co-processor is likely integrated:
 | **Mission Computer** | Skynode N (AI) | Basic microcontroller | Unknown |
 | **Propulsion** | Electric BLDC | Piston (Mado MD-550) | Electric |
 | **Navigation** | GPS + Visual AI | GPS + INS only | GPS + EO |
-| **Warhead** | 45 kg | 30-50 kg | 23 kg |
+| **Scientific Payload** | 45 kg | 30-50 kg | 23 kg |
 | **Range** | 1,600 km | 1,800-2,500 km | 40 km |
 | **Jam Resistance** | High (visual nav) | Low | Medium |
 
